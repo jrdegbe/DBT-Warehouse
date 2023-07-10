@@ -119,7 +119,7 @@ There are three distinct layers in the data warehouse:
 
 3. A warehouse layer made-up of subject area data marts, each of which contains multiple fact and conformed dimension tables
 
-![Model Layers](https://github.com/rittmananalytics/ra_data_warehouse/blob/master/img/data_flow.png)
+![Model Layers](https://github.com/jrdegbe/DBT-Warehouse/blob/main/img/data_flow.png)
 
 ### Dimensional Model
 
@@ -527,8 +527,6 @@ One of the challenges when centralising data from a new source is how to efficie
 * Min, Max and Average values
 * Most frequently occuring value, and count of rows containing most frequent value
 * Whether column is used for partitioning
-
-![](https://github.com/rittmananalytics/ra_data_warehouse/blob/master/img/data_profile.png)
 
 ### How Does Data Profiling Work?
 
